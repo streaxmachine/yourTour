@@ -1,0 +1,185 @@
+.travellers-photos{
+    margin-top: 135px;
+}
+
+.container-photos{
+    padding: 0 30px;
+    margin-top: 100px;
+}
+
+
+.img-list{
+    margin: 0 -15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.img-list-col{
+    margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+
+.img-list-col-medium{
+    margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+
+.img-list-item-medium{
+    width: calc(100% / 5 - 30px);
+	margin-bottom: 30px;
+}
+
+.img-list-item-first{
+    width: calc(100% / 4 - 30px);
+	margin-bottom: 30px;
+}
+
+.photos-settings{
+    max-width: 442.5px;
+    width: 100%;
+    height: 300px;
+    border-radius: 50px;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.photo1{
+    background-image: url("/img/travel\ photo-1.jpg");
+}
+
+.photo2{
+    background-image: url("/img/travel\ photo-2.jpg");
+}
+
+.photo3{
+    background-image: url("/img/travel\ photo-3.jpg");
+}
+
+.photo4{
+    background-image: url("/img/travel\ photo-4.jpg");
+}
+
+.photo5{
+    background-image: url("/img/travel\ photo-5.jpg");
+}
+
+.photo6{
+    background-image: url("/img/travel\ photo-6.jpg");
+}
+
+.photo7{
+    background-image: url("/img/travel\ photo-7.jpg");
+}
+
+.photo8{
+    background-image: url("/img/travel\ photo-8.jpg");
+}
+
+.photo9{
+    background-image: url("/img/travel\ photo-9.jpg");
+}
+
+.photo10{
+    background-image: url("/img/travel\ photo-10.jpg");
+}
+
+.photo11{
+    background-image: url("/img/travel\ photo-11.jpg");
+}
+
+.photo12{
+    background-image: url("/img/travel\ photo-12.jpg");
+}
+
+.photo13{
+    background-image: url("/img/travel\ photo-13.jpg");
+}
+
+
+
+@media (max-width: 1100px){
+
+    .container-photos {
+        padding: 0 20px;
+    }
+
+    .none-iPad{
+        display: none;
+    }
+
+    .img-list {
+        margin: 0 -10px;
+    }
+
+    .img-list-item-medium{
+        width: calc(100% / 4 - 20px);
+        margin-bottom: 30px;
+    }
+    
+    .img-list-item-first{
+        width: calc(100% / 3 - 20px);
+        margin-bottom: 30px;
+    }
+
+    .img-list-col {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .img-list-col-medium{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 680px){
+    .container-photos {
+        padding: 0 21px;
+        margin-top: 50px;
+    }
+
+    .travellers-photos {
+        margin-top: 53px;
+    }
+
+    .photos-settings{
+        border-radius: 20px;
+    }
+
+    .none-mobile{
+        display: none;
+    }
+
+    .img-list {
+        margin: 0 -5px;
+    }
+
+    .img-list-item-medium{
+        width: calc(100% / 3 - 10px);
+        margin-bottom: 18px;
+    }
+    
+    .img-list-item-first{
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 18px;
+    }
+
+    .img-list-col {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .img-list-col-medium{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .photos-settings{
+        height: 110px;
+    }
+
+}
