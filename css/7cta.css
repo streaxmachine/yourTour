@@ -1,5 +1,5 @@
 .section-cta {
-    margin-top: 90px;
+    margin-top: 82px;
 }
 
 
@@ -80,6 +80,12 @@
 .green:active::after{
     color: #286562;
     background-color: #286562;
+}
+
+@media (max-width: 1024px){
+    .section-cta {
+        margin-top: 85px;
+    }
 }
 
 @media (max-width: 850px){
