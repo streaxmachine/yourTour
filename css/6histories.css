@@ -12,16 +12,17 @@
 
 
 .travalers-histories{
-    border: solid 1px transparent;
     border-radius: 50px;
     margin-bottom: 45px;
+    cursor: pointer;
 }
 
 .travalers-histories-img , .travalers-histories-img2 , .travalers-histories-img3{
     background-image: url("/img/story\ photo-12.jpg");
     background-position-y: center;
     background-position-x: center;
-    background-size: cover;
+    background-size: 102%;
+    transition: 300ms;
 }
 
 .travalers-histories-img2{
@@ -32,6 +33,18 @@
     background-image: url("/img/story\ photo-13.jpg");
 }
 
+.travalers-histories-img:hover , .travalers-histories-img2:hover , .travalers-histories-img3:hover{
+    background-size: 122%;
+    transition: 300ms;
+}
+
+.travalers-histories-img:hover .lower-btn , .travalers-histories-img2:hover .lower-btn , .travalers-histories-img3:hover .lower-btn{
+    background-color: #286562;
+}
+
+.travalers-histories-img:hover .lower-btn:active , .travalers-histories-img2:hover .lower-btn:active , .travalers-histories-img3:hover .lower-btn:active{
+    background-color: #EFA501;
+}
 
 .travalers-histories-heading{
     display: inline-block;
@@ -57,7 +70,8 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 60px;
-    margin-bottom: 54px;
+    margin-bottom: 49px;
+    padding-bottom: 54px;
 }
 
 .travalers-histories-description{
@@ -113,9 +127,50 @@
     font-weight: 400;
     line-height: 28.4px;
 }
-@media (max-width: 1024px){
+
+.white-to-yellow{
+    color: white;
+    position: relative;
+}
+
+.white-to-yellow:after{
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.white-to-yellow:hover::after{
+    opacity: 1;
+}
+
+.white-to-yellow:active{
+    color: #EFA501;
+}
+
+.white-to-yellow:active::after{
+    color: #EFA501;
+    background-color: #EFA501;
+}
+
+@media (max-width: 1300px){
     .travalers-images {
         margin-top: 95px;
+    }
+
+    .travalers-histories-img , .travalers-histories-img2 , .travalers-histories-img3{
+        background-size: cover;
+    }
+
+    .travalers-histories-img:hover , .travalers-histories-img2:hover , .travalers-histories-img3:hover{
+        background-size: cover
     }
 }
 
@@ -176,7 +231,8 @@
 
     .travelers-histories-lower {
         margin-left: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 22px;
+        padding-bottom: 25px;
     }
 
     .travalers-histories-description2 {

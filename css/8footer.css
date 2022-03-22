@@ -52,6 +52,38 @@ footer {
     color: #1B1F2B;
 }
 
+.black-to-yellow{
+    color: black;
+    position: relative;
+}
+
+.black-to-yellow:after{
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.black-to-yellow:hover::after{
+    opacity: 1;
+}
+
+.black-to-yellow:active{
+    color: #EFA501;
+}
+
+.black-to-yellow:active::after{
+    color: #EFA501;
+    background-color: #EFA501;
+}
+
 @media (max-width: 1024px){
  
 .footer {
