@@ -1,0 +1,194 @@
+.travalers-images{
+    margin-top: 100px;
+}
+
+.histories-container{
+    padding: 0px 53px;
+}
+
+.histories {
+    margin-top: 107px;
+}
+
+
+.travalers-histories{
+    border: solid 1px transparent;
+    border-radius: 50px;
+    margin-bottom: 45px;
+}
+
+.travalers-histories-img , .travalers-histories-img2 , .travalers-histories-img3{
+    background-image: url("/img/story\ photo-12.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.travalers-histories-img2{
+    background-image: url("/img/story\ photo-11.jpg");
+}
+
+.travalers-histories-img3{
+    background-image: url("/img/story\ photo-13.jpg");
+}
+
+
+.travalers-histories-heading{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    line-height: 42.7px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.travelers-histories-upper{
+    max-width: 610px;
+    width: 100%;
+    margin-left: 60px;
+    padding-right: 30px;
+}
+
+.travelers-histories-lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 54px;
+}
+
+.travalers-histories-description{
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.travalers-histories-description2{
+    margin-top: 38px;
+    margin-bottom: 220px;
+}
+
+.travalers-histories-description , .description-list-item , .travalers-histories-description2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.4px;
+    color:white
+}
+
+.description-list-item{
+    list-style: disc;
+}
+
+.description-list{
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 109px;
+}
+
+.button-podrobnee{
+    display: inline-block;
+    margin-left: -20px;
+}
+
+
+
+.social-media{
+    margin-right: 60px;
+}
+
+.social-media-element:not(:last-child){
+    margin-right: 35px;
+}
+
+.social-media-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.4px;
+}
+@media (max-width: 1024px){
+    .travalers-images {
+        margin-top: 95px;
+    }
+}
+
+
+@media (max-width: 750px){
+
+
+    .histories {
+        margin-top: 58px;
+    }
+
+    .histories-container{
+        padding: 0px 21px;
+    }
+
+    .travalers-histories {
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+    .travalers-images {
+        margin-top: 50px;
+    }
+
+    .travalers-histories-heading {
+        width: 130px;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 80px;
+        margin-bottom: 0px;
+        font-size: 23px;
+        line-height: 27.6px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+    .travalers-histories-description , .travalers-histories-description2, .description-list-item{
+        font-size: 16px;
+        line-height: 22.72px;
+    }
+
+    .travalers-histories-description2{
+        margin-bottom: 156px;
+    }
+
+    .travalers-histories-description , .travalers-histories-description2{
+        margin-top: 20px;
+    }
+
+    .travelers-histories-upper {
+        max-width: 408px;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .travelers-histories-lower {
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+
+    .travalers-histories-description2 {
+        margin-bottom: 150px;
+    }
+
+    .social-media{
+        display: none;
+    }
+
+    .description-list {
+        margin-bottom: 57px;
+        margin-left: 23px;
+    }
+}
