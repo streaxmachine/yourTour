@@ -16,11 +16,11 @@
   <link rel="stylesheet" href="css/6histories.css">
   <link rel="stylesheet" href="css/7cta.css">
   <link rel="stylesheet" href="css/8footer.css">
+  <link rel="shortcut icon" href="/img/icons8.png" type = "img/png">
   <title>YourTour</title>
   <meta name="description" content="Идеальные путешествия существуют.Лучшее туристическое агенство. У нас можно выбрать уже существующий тур или составить свой" />
   <meta name="keywords" content="самые дешевые туры за границу , маленькие цены , лучшие туры , создать свой тур" />
 </head>
-
 <body>
 <div class="wrapper ">
 <header class="header">
@@ -59,7 +59,7 @@
       </button>
     </div>
     <div class="main-block-image _ibg">
-      <img src="img/image.png" alt="cover">
+      <!-- <img src="img/image2.jpg" alt="cover"> -->
     </div>
   </div>
 
@@ -69,19 +69,19 @@
       <nav class="choose-tour-nav">
         <ul class="choouse-tour-list">
           <li class="tour-list-item">
-            <a href="" class="tour-list-item-heading">Популярные</a>
+            <a href="##" class="tour-list-item-heading">Популярные</a>
           </li>
           <li class="tour-list-item">
-            <a href="" class="tour-list-item-heading">Авторские</a>
+            <a href="##" class="tour-list-item-heading">Авторские</a>
           </li>
           <li class="tour-list-item ">
-            <a href="" class="tour-list-item-heading">Походы</a>
+            <a href="##" class="tour-list-item-heading">Походы</a>
           </li>
           <li class="tour-list-item">
-            <a href="" class="tour-list-item-heading">Сплавы</a>
+            <a href="##" class="tour-list-item-heading">Сплавы</a>
           </li>
           <li class="tour-list-item">
-            <a href="" class="tour-list-item-heading">Велопрогулки</a>
+            <a href="##" class="tour-list-item-heading">Велопрогулки</a>
           </li>
         </ul>
       </nav>
@@ -212,31 +212,31 @@
               </div>
               <div class="col-form form-inputs select">
                 <div class="form-inputs-heading">Направление</div>
-                <select class="input2 select-input">
-                  <option>Куда хотите ехать</option>
-                  <option>Пункт выбран</option>
+                <select required class="input2 select-input">Куда хотите ехать
+                  <option value="" disabled selected >Куда хотите ехать</option>
+                  <option value="1" >Пункт выбран</option>
                 </select>
               </div>
 
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Email</div>
-                <input required type="email" name="phone" placeholder="example@mail.com" class="input2">
+                <input required type="email" maxlength="10" name="phone" placeholder="example@mail.com" class="input2">
               </div>
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Телефон</div>
-                <input required type="tel" name="" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="input2" id="name2">
+                <input required type="" maxlength="12" name="" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="input2" id="name2">
               </div>
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Дата от</div>
-                <input required type="" name="" placeholder="ДД.ММ.ГГГГ" class="input2">
+                <input required type="tel" name="" placeholder="ДД.ММ.ГГГГ" class="input2 date-input" onfocus="(this.type='date')">
               </div>
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Дата до</div>
-                <input required type="tel" name="" placeholder="ДД.ММ.ГГГГ" class="input2">
+                <input required type="" name="" placeholder="ДД.ММ.ГГГГ" class="input2 date-input" onfocus="(this.type='date')">
               </div>
             </div>
             <div class="comment">Комментарии</div>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="editor" cols="30" rows="10"></textarea>
 
             <div class="checkboxes-and-btns">
               <div class="checkbox-years">

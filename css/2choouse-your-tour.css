@@ -61,14 +61,16 @@ h3 , h2 ,h1{
     opacity: 1;
 }
 
-.tour-list-item-heading:active::after {
-    color: #EFA501;
+.tour-list-item-heading:focus::after {
+    opacity: 1;
     background-color: #EFA501;
 }
 
-.tour-list-item-heading:active{
+.tour-list-item-heading:focus{
+    opacity: 1;
     color: #EFA501;
 }
+
 
 @media (max-width: 750px) {
     .choose-tour {
