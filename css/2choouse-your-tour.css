@@ -61,12 +61,15 @@ h3 , h2 ,h1{
     opacity: 1;
 }
 
-.tour-list-item-heading:focus::after {
+
+
+
+.tour-list-item-heading:active::after {
     opacity: 1;
     background-color: #EFA501;
 }
 
-.tour-list-item-heading:focus{
+.tour-list-item-heading:active{
     opacity: 1;
     color: #EFA501;
 }
