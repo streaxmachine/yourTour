@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title">
+  <meta name="title" content="page-title"> 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/1header.css">
@@ -204,15 +204,15 @@
       </p>
       <div class="background">
         <div class="form-redaction">
-          <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="post">
+          <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="off">
             <div class="form">
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Имя</div>
-                <input required type="text" name="" placeholder="Введите Ваше имя" class="input2" id="name">
+                <input required type="text" name="make-tour-name" placeholder="Введите Ваше имя" class="input2" id="name">
               </div>
               <div class="col-form form-inputs select">
                 <div class="form-inputs-heading">Направление</div>
-                <select required class="input2 select-input">Куда хотите ехать
+                <select required class="input2 select-input">
                   <option value="" disabled selected >Куда хотите ехать</option>
                   <option value="1" >Пункт выбран</option>
                 </select>
@@ -224,27 +224,27 @@
               </div>
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Телефон</div>
-                <input required type="number" maxlength="12" name="" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="input2" id="pyat"> 
+                <input required type="number" maxlength="12" name="make-tour-phone" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="input2" id="pyat"> 
               </div>
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Дата от</div>
-                <input required type="" name="" placeholder="ДД.ММ.ГГГГ" class="input2 date-input" onfocus="(this.type='date')">
+                <input required placeholder="ДД.ММ.ГГГГ" type="text" name="make-tour-date" class="input2 date-input" onfocus="(this.type='date')">
               </div>
               <div class="col-form form-inputs">
                 <div class="form-inputs-heading">Дата до</div>
-                <input required type="" name="" placeholder="ДД.ММ.ГГГГ" class="input2 date-input" onfocus="(this.type='date')">
+                <input required placeholder="ДД.ММ.ГГГГ" type="text" name="make-tour-date2" class="input2 date-input" onfocus="(this.type='date')">
               </div>
             </div>
             <div class="comment">Комментарии</div>
-            <textarea name="" id="editor" cols="30" rows="10"></textarea>
-
+            <textarea name="make-tour-textarea"  id="editor" cols="30" rows="10"></textarea>
+            
             <div class="checkboxes-and-btns">
               <div class="checkbox-years">
                 <p class="checkbox-years-text1">Вам есть 18 лет?</p>
                 <div class="radio-btn">
                   <div class="da-btn">
                     <input type="radio" name="radioName" id="squaredThree" class="da-net-input" checked>
-                    <div for="squaredThree" class="checkbox-years-text">Да</div>
+                    <div class="checkbox-years-text">Да</div>
                   </div>
                   <div class="net-btn">
                     <input type="radio" name="radioName" id="squaredThree2" class="da-net-input">
@@ -284,7 +284,7 @@
 
       <div class="user-reviews">
         <ul class="users-reviews-list">
-          <div class="user user-col">
+          <li class="user user-col">
             <p class="users-feedback">
               Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет оценить значение модели развития.
             </p>
@@ -301,12 +301,12 @@
                 <img src="img/image43.png" alt="" class="section-reviews-avatar">
               </div>
             </div>
-          </div>
+          </li>
 
           <div class="user user-col">
             <p class="users-feedback">
               Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
-              <p class="pavel-p"> Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
+              <div class="pavel-p"> Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</div>
             </p>
             <div class="section-reviews-user pavel-margin">
               <div class="section-reviews-user-info">
@@ -337,7 +337,7 @@
     </div>
 
     <div class=" container2 container-photos">
-      <div class=>
+      <div>
         <ul class="img-list ">
           <li class="img-list-item-first img-list-col">
             <div class="photo1 photos-settings "></div>
